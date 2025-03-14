@@ -19,7 +19,7 @@ header {
     width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 100;
-    height: 20px; /* Pievienojiet augstumu galvenei */
+    height: 60px; /* Pievienojiet augstumu galvenei */
 }
 
 nav ul {
@@ -46,7 +46,7 @@ nav ul li a:hover {
 }
 
 main {
-    padding: 100px 20px 40px; /* Pielāgojiet augšējo polsterējumu, lai kompensētu galvenes augstumu */
+    padding: 80px 20px 40px; /* Pielāgojiet augšējo polsterējumu, lai kompensētu galvenes augstumu */
     max-width: 800px;
     margin: 0 auto;
     flex: 1;
@@ -110,7 +110,6 @@ footer {
     position: relative;
     width: 100%;
     bottom: 0;
-    height: 20px;
 }
 
 @media (max-width: 600px) {
