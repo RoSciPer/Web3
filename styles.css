@@ -1,3 +1,4 @@
+```css
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -13,13 +14,7 @@ body {
 header {
     background-color: #4a90e2;
     padding: 20px 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 100;
-    height: 60px; /* Pievienojiet augstumu galvenei */
 }
 
 nav ul {
@@ -46,7 +41,7 @@ nav ul li a:hover {
 }
 
 main {
-    padding: 80px 20px 40px; /* Pielāgojiet augšējo polsterējumu, lai kompensētu galvenes augstumu */
+    padding: 40px 20px;
     max-width: 800px;
     margin: 0 auto;
     flex: 1;
@@ -121,8 +116,5 @@ footer {
     nav ul li {
         margin: 10px 0;
     }
-
-    nav ul li a {
-        padding: 10px 15px;
-    }
 }
+```
